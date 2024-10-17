@@ -1,14 +1,19 @@
+body {
+    margin: auto;
+}
 
 table {
     border-collapse: collapse;
-    position: relative;
+    /*
+    position: relative; found to be unnecessary
+    */
     z-index: -1;
-    height: 100vh;
+    height: 85vh;
     width: 100vw;
 }
 
 .stars {
-    position: relative; 
+    position: absolute;
 }
 
 tr:nth-of-type(odd) {
