@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    
+}
+
+.stars {
+    display: flex;
+    justify-content: flex-start;
+    height: 30vh;
+    width: 30vw;
+}
+
+tr:nth-of-type(odd) {
+    background-color: red;
+}
