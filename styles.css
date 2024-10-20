@@ -6,8 +6,8 @@ table {
     border-collapse: collapse;
     /*
     position: relative; found to be unnecessary
-    */
     z-index: -1;
+    */
     height: 85vh;
     width: 100vw;
 }
